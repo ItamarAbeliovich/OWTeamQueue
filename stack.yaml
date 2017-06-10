@@ -1,0 +1,17 @@
+resolver: lts-8.17
+
+packages:
+- '.'
+
+extra-deps:
+- HDBC-sqlite3-2.3.3.1
+
+flags: {}
+
+extra-package-dbs: []
+
+extra-lib-dirs:
+- C:\Users\Yotam\AppData\Local\Programs\stack\x86_64-windows\msys2-20150512\mingw64\lib
+
+extra-include-dirs:
+- C:\Users\Yotam\AppData\Local\Programs\stack\x86_64-windows\msys2-20150512\mingw64\include
