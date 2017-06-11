@@ -8,6 +8,6 @@ data Role = Tank | Healer | Enforcer | Builder | Flanker
 
 newtype Session = Session id [Role]
 
-newtype User = User String String | User Int -- name pass | id
+newtype User = User String String | User Int -- name saltedhashedpass | id
 
 createSession :: User -> Role -> IO Session
